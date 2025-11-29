@@ -1,0 +1,59 @@
+.col-sm-6{
+    height: 45vh;
+}
+.todo{
+    height: 100%;
+    overflow-y: scroll;       /* scroll only in vertical direction */
+    overflow-x: hidden;       /* no horizontal overflow */
+    scrollbar-width: none; 
+}
+.todo h3{
+    text-align: center;
+}
+
+.todo ul {
+    list-style: none;          
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;              
+}
+
+.todo li {
+    font-size: 16px; 
+    font-weight: 400; 
+    font-family: "Times New Roman", Times, serif;
+    padding: 10px 12px;
+
+    display: flex;
+    align-items: center;
+    gap: 12px;            
+    
+    border-radius: 6px;
+    border: 1px solid #ddd;
+
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.1); 
+}
+.todo li span {
+    flex: 1;       
+}
+
+.todo button {
+    font-family: "Roboto", sans-serif; 
+    padding: 6px 12px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.todo button:hover {
+    opacity: 0.8;
+}
+
+.todo i {
+    font-size: 18px;
+    margin-right: 6px;      
+}

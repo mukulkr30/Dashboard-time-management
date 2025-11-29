@@ -1,0 +1,13 @@
+.footer {
+    width: 100%;
+    padding: 20px 0;        /* adds space so text is visible */
+    text-align: center;     /* centers the text */
+    margin-top: 40px;
+    background-color: #212529;
+    text-align: center;
+}
+
+.footer-text {
+    color: white;
+    margin: 5px 0;
+}
